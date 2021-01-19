@@ -39,7 +39,7 @@ jobs:
       - name: Install Surge
         run: npm install -g surge
       - name: Run surge
-        run: surge ./build bootcamp_shrek.surge.sh --token ${{ secrets.SURGE_TOKEN }}
+        run: surge ./build taskbox-app-shariq.surge.sh --token ${{ secrets.SURGE_TOKEN }}
   test:
     # the operating system it will run on
     runs-on: ubuntu-latest
