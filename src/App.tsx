@@ -2,7 +2,6 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 
 import React from "react";
-import { Task } from "./components/Task";
 import "./App.css";
 import { InboxScreen } from "./components/InboxScreen";
 
